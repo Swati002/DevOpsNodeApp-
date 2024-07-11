@@ -17,7 +17,7 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: Build Docker image
-        run: docker build -t nodejs-webapp .
+        run: docker build -t swatigoel02/custom-docker-img-1 .
 
       - name: Run Docker container
-        run: docker run -d -p 8000:8000 nodejs-webapp
+        run: docker run -d -p 8000:8000 swatigoel02/custom-docker-img-1
