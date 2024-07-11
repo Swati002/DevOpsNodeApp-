@@ -36,4 +36,5 @@ ENTRYPOINT [ "node", "main.js" ]
 
 # Now do port mapping 
 # docker run it -p 8000:8000 custom-docker-img-1 image_name
+
 # docker push swatigoel02/custom-docker-img-1
